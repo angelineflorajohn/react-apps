@@ -10,3 +10,9 @@ This is a simple react application making use of the following technologies:
     <li>Table view of the movies</li>
     <li>Arrow function, map method in js</li>
 </ul>
+
+List of all the movies
+<img width="1335" alt="image" src="https://github.com/angelineflorajohn/react-apps/assets/25217498/6071cbd5-c488-4e18-b273-f09bce9fdfff">
+
+List of all the remaining movies after deleting some of the movies
+<img width="1354" alt="image" src="https://github.com/angelineflorajohn/react-apps/assets/25217498/9494c3f3-7f53-4bb7-8678-2da1406db263">
