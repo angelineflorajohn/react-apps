@@ -7,13 +7,20 @@ class Movies extends Component {
   };
 
   handleDelete = (movie) => {
-    console.log("delete button clicked for movie " + movie);
+    const movies = this.state.movies.filter((m) => m._id !== movie._id); //get all the movies except the movie passed in the object
+    this.setState({ movies });
   };
 
   render() {
+    const { length: moviesCount } = this.state.movies;
+
+    if (moviesCount === 0) return <p>There are no movies in the database!</p>;
+
+    //if movies count is 0 then return the above paragraph otherwise return the render method below
     return (
       <React.Fragment>
         <h2>Movies component</h2>
+        <h4>Displaying {moviesCount} movies in the database</h4>
         <table className="table">
           <thead>
             <tr>
