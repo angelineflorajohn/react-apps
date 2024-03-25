@@ -29,19 +29,16 @@ class Counter extends Component {
         </span>
         <button
           onClick={() => this.handleIncrement(count)}
-          className="btn btn-primary m-3"
-        >
-          Increment
-        </button>
+          className="btn btn-primary fa fa-plus btn-lg m-1"
+        ></button>
         <button
           onClick={() => this.handleDecrement(count)}
-          className="btn btn-secondary m-3"
-        >
-          Decrement
-        </button>
-        <button onClick={this.handleDelete} className="btn btn-danger m-3">
-          Delete
-        </button>
+          className="btn btn-secondary fa fa-minus btn-lg m-1"
+        ></button>
+        <button
+          onClick={this.handleDelete}
+          className="btn btn-danger fa fa-trash btn-lg m-1"
+        ></button>
       </React.Fragment>
     );
   }
