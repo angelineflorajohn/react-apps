@@ -1,9 +1,16 @@
 import logo from "./logo.svg";
+import NavBar from "./components/navbar";
 import "./App.css";
-import Counter from "./components/counter";
+import Counters from "./components/counters";
 
 function App() {
-  return <Counter />;
+  return (
+    <div>
+      <main className="container">
+        <Counters />
+      </main>
+    </div>
+  );
 }
 
 export default App;
