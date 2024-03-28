@@ -11,8 +11,11 @@ This is a simple react application making use of the following technologies:
     <li>Arrow function, map, filter methods in js</li>
 </ul>
 
-List of all the movies
+List of all the movies without pagination
 ![alt text](image.png)
+
+List of all the movies after pagination
+![alt text](image-1.png)
 
 List of all the remaining movies after deleting some of the movies
 <img width="1354" alt="image" src="https://github.com/angelineflorajohn/react-apps/assets/25217498/9494c3f3-7f53-4bb7-8678-2da1406db263">
